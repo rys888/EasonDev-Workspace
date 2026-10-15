@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-acd7f1f9ce7e93ce","sourcePath":"content/八股笔记/MySQL/索引/为什么主键不推荐用UUID用自增ID.md","documentTitle":"为什么主键不推荐用UUID用自增ID","markdown":"UUID 放进 B+树之后也是有序的，问题在于新生成的 UUID 不一定比前一个大，可能插入位置在树的中间","headings":[],"wordCount":40,"readingMinutes":1}

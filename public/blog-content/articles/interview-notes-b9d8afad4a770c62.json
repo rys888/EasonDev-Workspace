@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-b9d8afad4a770c62","sourcePath":"content/八股笔记/Java 基础/概念/JVM是什么.md","documentTitle":"JVM是什么","markdown":"JVM 是 java 虚拟机，主要工作是解释自己的指令集（字节码）并映射到本地的 CPU 指令集和 OS 系统调用\n\nJVM 屏蔽了与操作系统平台相关的信息，使得 Java 程序只需要生成在 Java 虚拟机上运行的目标代码（字节码），就可以在多平台上不加修改的运行，这也是 Java 的平台无关性","headings":[],"wordCount":106,"readingMinutes":1}

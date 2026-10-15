@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-c8f3341b2940a41c","sourcePath":"content/八股笔记/Java 基础/面向对象/面向对象的设计原则.md","documentTitle":"面向对象的设计原则","markdown":"- 单一职责原则(SRP)\n- 开放封闭原则(OCP)\n- 里氏替换原则(LSP)\n- 接口隔离原则(ISP)\n- 依赖倒置原则(DIP)\n- 最少知识原则(Law of Demeter)","headings":[],"wordCount":44,"readingMinutes":1}

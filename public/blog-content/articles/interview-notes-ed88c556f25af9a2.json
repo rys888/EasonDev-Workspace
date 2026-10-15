@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-ed88c556f25af9a2","sourcePath":"content/八股笔记/Java 基础/Object/Object类的方法.md","documentTitle":"Object类的方法","markdown":"Object 是所有类的超类，提供 11 个核心方法，核心用于对象比较、哈希、字符串表示、线程同步等\n\n[equals](/blog/n/interview-notes-f039b714325e22ec)\ntoString()\ngetClass：返回对象运行时的实际类对象","headings":[],"wordCount":57,"readingMinutes":1}

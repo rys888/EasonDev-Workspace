@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"learning-reflections-68e1b3d6ba09a4d6","sourcePath":"content/网课个人感想/Redis（黑马）.md","documentTitle":"Redis（黑马）","markdown":"挺重要的\n实战篇——黑马点评\n黑马点评部分有一个模块是 redis 消息队列，感觉实际上没什么用了，因为消息队列已经基本不用 redis ，用的三大件了，所以我直接跳了\n实践篇最后几集也没细看\n高级篇和基础篇时间有限直接跳了\n大概花了 10 天时间","headings":[],"wordCount":98,"readingMinutes":1}

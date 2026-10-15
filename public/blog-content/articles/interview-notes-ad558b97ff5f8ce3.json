@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-ad558b97ff5f8ce3","sourcePath":"content/八股笔记/Java 基础/数据类型/数据类型转换方式.md","documentTitle":"数据类型转换方式","markdown":"自动类型转换\n强制类型转换\n字符串转换：Java 提供了将字符串表示的数据转换为其他类型数据的方法\nstring ➡️ int   Integer.parseInt()\nstring ➡️ double   Double.parseDouble()\n数值之间转换","headings":[],"wordCount":56,"readingMinutes":1}

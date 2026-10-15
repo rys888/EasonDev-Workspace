@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Frontend build
+node_modules/
+dist/
+*.tsbuildinfo
+.cache/
+
+# Blender backup files
+*.blend1
+*-backup*.blend
+
+# Python
+__pycache__/
+*.pyc

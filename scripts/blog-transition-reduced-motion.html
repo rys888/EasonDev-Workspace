@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog transition reduced-motion lifecycle · development only</title>
+<div id="root"></div>
+<script type="module">
+  // Test fixture only, never imported by the app or included in dist. Simulate
+  // the preference for JS lifecycle checks without changing the user's OS.
+  const nativeMatchMedia = window.matchMedia.bind(window)
+  window.matchMedia = query => {
+    if (!query.includes('prefers-reduced-motion')) return nativeMatchMedia(query)
+    const media = nativeMatchMedia(query)
+    return new Proxy(media, { get(target, key) {
+      if (key === 'matches') return query.includes('reduce)')
+      const value = Reflect.get(target, key, target)
+      return typeof value === 'function' ? value.bind(target) : value
+    } })
+  }
+  await import('/src/main.tsx')
+</script>
+<style>
+  /* Matching CSS branch from styles.css, since this fixture mocks JS only. */
+  .scene-world { transform:none!important;transition:none!important }
+  .room[data-phase^="notebook"]:not([data-phase="notebook-exiting"]) .scene-world,
+  .room[data-phase="blog"] .scene-world {
+    transform:translate3d(var(--camera-x),var(--camera-y),0) scale(var(--camera-scale))!important;
+  }
+  .notebook-map--desktop {transform:none!important}
+</style>
+</html>

@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-79ffbf257ad03191","sourcePath":"content/八股笔记/MySQL/SQL基础/NOSQL和SQL区别.md","documentTitle":"NOSQL和SQL区别","markdown":"- SQL 数据库——关系型数据库，存储结构化数据，以行列二维表形式存在\n- NOSQL——非关系型数据库（Redis），存储方式 JSON...","headings":[],"wordCount":41,"readingMinutes":1}

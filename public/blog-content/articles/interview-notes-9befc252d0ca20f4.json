@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-9befc252d0ca20f4","sourcePath":"content/八股笔记/Java 基础/深拷贝和浅拷贝/深拷贝和浅拷贝-概览.md","documentTitle":"深拷贝和浅拷贝","markdown":"![Pasted image 20260926230623](/blog-content/assets/4a23401ceda57bb21de2.png?width=430)\n\n\n深拷贝其实有 3 种方法，但是我觉得记不住，实际运用到过的有序列化和反序列化","headings":[],"wordCount":34,"readingMinutes":1}

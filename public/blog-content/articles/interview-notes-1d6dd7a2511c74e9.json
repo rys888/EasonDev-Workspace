@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-1d6dd7a2511c74e9","sourcePath":"content/八股笔记/集合/List/list可以一边遍历一边修改元素吗？.md","documentTitle":"list可以一边遍历一边修改元素吗？","markdown":"- 普通 for 循环：可以在遍历过程中修改元素，只要修改的索引不超出 List 范围即可\n- 使用foreach 循环遍历：不建议\n- 使用迭代器遍历时：如果要删除，应该使用 Iterator.remove()；如果要替换元素，ListIterator.set()","headings":[],"wordCount":70,"readingMinutes":1}

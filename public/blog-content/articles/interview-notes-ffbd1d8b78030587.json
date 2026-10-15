@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"interview-notes-ffbd1d8b78030587","sourcePath":"content/八股笔记/Java 基础/数据类型/long和int数据类型可以互相转换.md","documentTitle":"long和int数据类型可以互相转换","markdown":"long 范围比 int 大，所以可以将 int 转换为 long，反之可能会导致数据丢失或者溢出\nint intValue=10;\nlong longValue=intValue;\n\nlong longValue=100 L;\nint intValue=(int) longValue;","headings":[],"wordCount":45,"readingMinutes":1}
